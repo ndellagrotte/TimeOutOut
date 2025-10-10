@@ -6,8 +6,7 @@
   "mixins": [
     "ChannelInitializerMixin",
     "ServerCommonNetworkHandlerMixin",
-    "ServerLoginNetworkHandlerMixin",
-    "ServerPlayNetworkHandlerKeepAliveMixin"
+    "ServerLoginNetworkHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

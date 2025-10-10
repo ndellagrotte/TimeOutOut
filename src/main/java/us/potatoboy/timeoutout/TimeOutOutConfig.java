@@ -12,7 +12,6 @@ public class TimeOutOutConfig {
     public int readTimeoutSeconds = 120;
     public long loginTimeoutTicks = 2400;
     public long keepAlivePacketIntervalSeconds = 15;
-    public long keepAliveTimeoutSeconds = 120;
 
     public static TimeOutOutConfig loadConfig(File file) {
         TimeOutOutConfig config;
